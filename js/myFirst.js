@@ -1,0 +1,11 @@
+document.write('1足す2は');
+document.write(1+2);
+document.write('です。');
+console.log('計算結果を表示しました');
+console.log(1.5e+15);
+console.log("シングルコーテーションは\'\'のこと");
+console.log(1+1);
+console.log(10-7);
+console.log(2*2);
+console.log(1/3);
+console.log(13%7);
