@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+h1,h2,h3,h4,h5,h6,li {
+    color: darkblue;
+}
+
+
+li {
+    list-style-type: circle;
+    margin: 10px;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:visited {
+    color: chocolate;
+}
