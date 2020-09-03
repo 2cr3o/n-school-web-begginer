@@ -1,0 +1,212 @@
+/****  foundation  *****/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1em;
+}
+body {
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+}
+.f-pos-rel {
+    position: relative;
+}
+/****  foundation  *****/
+
+/****  valiable  ****/
+:root {
+    --lightCyan: #DDFFFF;
+    --paleWhite: rgba(255, 255, 255, .5);
+    --cyan: #0099CC;
+}
+/****  valiable  ****/
+
+/****  layout  ****/
+
+.l-header {
+    position: fixed;
+    bottom: 48px;
+    right: 64px;
+    z-index: 10;
+}
+
+.l-header__area {
+    width: 168px;
+    height: 168px;
+}
+
+.l-header__image {
+    width: calc(100% * 2 / 3);
+}
+
+.l-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.l-footer {
+    margin-bottom: 16px;
+}
+
+.l-footer__created {
+    color: var(--cyan);
+}
+
+/****  layout  ****/
+
+/****  component  ****/
+.c-btn-sm {
+    border: none;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 12.5px 0 12.5px;
+    text-align: center;
+}
+/****  component  ****/
+
+/****  page  ****/
+
+.p-main.index {
+    position: relative;
+    margin-top: 72px;
+    margin-bottom: 56px;
+}
+
+.p-main__contents {
+    width: 440px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.p-main__heading {
+    margin-bottom: 32px;
+}
+.p-main__before {
+    margin-bottom: 56px;
+}
+
+.p-main__result,
+.p-main__input {
+    margin-bottom: 32px;
+    color: #707070;
+}
+
+.p-main__input {
+    border: 1px solid var(--cyan);
+    text-align: center;
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+}
+
+.p-main__contents-image {
+    width: 356px;
+    position: absolute;
+}
+.p-main__contents-image.dancer {
+    top: 0;
+    left: 0;
+}
+
+.p-main__contents-image.woman {
+    bottom: 0;
+    right: 0;
+}
+
+/****  page  ****/
+
+/****  utillity  ****/
+/* bg */
+.u-bgc-lightCyan {
+    background-color: var(--lightCyan);
+}
+.u-bgc-paleWhite {
+    background-color: var(--paleWhite);
+}
+.u-bgc-cyan {
+    background-color: var(--cyan);
+}
+
+
+/* border-radius */
+.u-br-50 {
+    border-radius: 50%;
+}
+
+.u-br-bg {
+    border-radius: 24px;
+}
+
+.u-br-md {
+    border-radius: 12px;
+}
+
+.u-br-sm {
+    border-radius: 12px;
+}
+
+/* font */
+/* color */
+.u-font-white {
+    color: white;
+}
+
+.u-font-black {
+    color: #333;
+}
+
+/* size */
+.u-fs-bg {
+    font-size: 40px;
+}
+
+.u-fs-md {
+    font-size: 24px;
+}
+
+.u-fs-sm {
+    font-size: 14px;
+}
+
+/* weight */
+.u-font-bold {
+    font-weight: bold;
+}
+
+/* centering */
+.u-centering-xy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* width */
+.u-wid-100 {
+    width: 100%;
+}
+/* text-align */
+.u-ta-c {
+    text-align: center;
+}
+/* cursor */
+.u-cur-point {
+    cursor: pointer;
+}
+/* hidden */
+.u-hidden {
+    display: none;
+}
+
+
+/****  utillity  ****/
